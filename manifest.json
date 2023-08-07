@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Chromax",
+    "description": "Chromax",
+    "version": "1.0.0",
+  "icons": {
+    "16": "logo/chromax-icon-16.png",
+    "48": "logo/chromax-icon-48.png",
+    "128": "logo/chromax-icon-128.png"
+  },
+    "options_page": "settings/settings.html",
+    "chrome_url_overrides": {
+        "newtab": "popup/popup.html"
+    },
+    "chrome_settings_overrides": {
+      "search_provider": {
+        "name": "",
+        "keyword": "chromax",
+        "favicon_url": "https://res.cloudinary.com/die4qxld1/image/upload/v1689688791/Chromax_Extension/chromax_eyty9n.ico",
+        "encoding": "UTF-8",
+        "is_default": true,
+        "search_url": "https://www.google.com/search?q={searchTerms}&kanomifeed",
+        "suggest_url": "https://clients1.google.com/complete/search?client=chrome&hl=en&socpv=1&q={searchTerms}",
+        "instant_url": "https://www.google.com/search?source=hp&q={searchTerms}&kanomifeed",
+        "image_url": "https://www.google.com/search?q={searchTerms}&tbm=isch",
+        "search_url_post_params": "q={searchTerms}&kanomifeed",
+        "instant_url_post_params": "q={searchTerms}&kanomifeed",
+        "image_url_post_params": "q={searchTerms}&kanomifeed"
+      }
+    }
+}
