@@ -3,6 +3,7 @@
     "name": "Chromax",
     "description": "Chromax",
     "version": "1.0.0",
+    "update_url": "https://kanomiz.github.io/ChromaxExtensionUpdater/updates.xml",
   "icons": {
     "16": "logo/chromax-icon-16.png",
     "48": "logo/chromax-icon-48.png",
